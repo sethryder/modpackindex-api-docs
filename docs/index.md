@@ -757,7 +757,7 @@ Return modpacks that belong to a specific Minecraft version.
           }
         }
         
-## Modpacks [/modpacks{?limit}{?page}]
+## Modpacks [/modpacks{?name}{?limit}{?page}]
 
 ### Get Modpacks [GET]
 
@@ -766,6 +766,7 @@ Returns a list of Modpacks.
 + Parameters
     + limit: `3` (number, optional) - &#35; of results to return (Max: 100).
         + Default: `25`
+    + name: `direwolf20` (string, optional) - Search results by the modpacks's name.
     + page: `1` (number, optional) - Current page of results.
 
 
@@ -1032,7 +1033,7 @@ Return mods that in a specific modpack.
             }]
         }
         
-## Mods [/mods{?limit}{?page}]
+## Mods [/mods{?name}{?limit}{?page}]
 
 ### Get Mods [GET]
 
@@ -1041,6 +1042,7 @@ Returns a list of mods.
 + Parameters
     + limit: `3` (number, optional) - &#35; of results to return (Max: 100).
         + Default: `25`
+    + name: `applied` (string, optional) - Search results by the mod's name.
     + page: `1` (number, optional) - Current page of results.
 
 
